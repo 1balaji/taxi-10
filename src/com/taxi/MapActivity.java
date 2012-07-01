@@ -1,7 +1,3 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package com.taxi;
 
 import android.content.Context;
@@ -11,10 +7,6 @@ import com.google.android.maps.MapController;
 import com.google.android.maps.MapView;
 import com.google.android.maps.MyLocationOverlay;
 
-/**
- *
- * @author Dan
- */
 public class MapActivity extends com.google.android.maps.MapActivity {
 
     private MapView mapView;

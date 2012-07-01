@@ -20,8 +20,9 @@ public class MainActivity extends Activity
         loginButton.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View view) {
-                Intent myIntent = new Intent(view.getContext(), MapActivity.class);
-                startActivityForResult(myIntent, 0);
+                Intent intent = new Intent(view.getContext(), MapActivity.class);
+                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                startActivityForResult(intent, 0);
             }
         });
     }
