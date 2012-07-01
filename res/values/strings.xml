@@ -2,4 +2,5 @@
 <resources>
     <string name="app_name">Taxi</string>
     <string name="login_button">Login</string>
+    <string name="quit">Quit</string>
 </resources>
