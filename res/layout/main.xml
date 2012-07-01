@@ -11,7 +11,7 @@
     android:layout_height="wrap_content"
     android:textColor="#ffffff" 
     />
-<EditText android:id="@+id/phone_number_input"
+<EditText android:id="@+id/username_input"
     android:phoneNumber="true"
     android:inputType="phone"
     android:layout_width="fill_parent"
